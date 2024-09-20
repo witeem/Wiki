@@ -47,4 +47,4 @@
 ![image](https://github.com/user-attachments/assets/a84e793a-ef1b-4844-b886-5be5913b058d)
 
 6. Demo 
-这里提供登录的Demo设置参数，可以通过JMeter打开文件直接查看 demo.jmx
+这里提供登录的Demo设置参数，可以通过JMeter打开文件直接查看 [demo.jmx](https://github.com/witeem/Wiki/blob/main/JMeter/demo/demo.jmx)
