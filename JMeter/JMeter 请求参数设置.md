@@ -10,9 +10,9 @@
 ![image](https://github.com/user-attachments/assets/b37929a0-1025-4b2b-b96c-e474832e2aa5)
 
 #### 添加 CSV Data Set Config
-选择对应的Request 右击选择 Add —> Config Element —> csv data set config
+- 选择对应的Request 右击选择 Add —> Config Element —> csv data set config
 
-使用了csv data set config设置参数，可以将 User Parameters 删除掉(避免参数干扰)
+- 使用了csv data set config设置参数，可以将 User Parameters 删除掉(避免参数干扰)
 
 ![image](https://github.com/user-attachments/assets/a4b981b6-ecab-4ad8-b007-02269690fb54)
 
