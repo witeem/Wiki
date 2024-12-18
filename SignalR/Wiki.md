@@ -1,4 +1,4 @@
-# SignalR 实时双向通信功能
+![image](https://github.com/user-attachments/assets/d7ac6b13-f6c4-4619-9597-af10a70e3b0b)# SignalR 实时双向通信功能
 
 > SignalR是一个.Net开源库，用于构建需要实时进行用户交互和数据更新的Web应用，如在线聊天，游戏，天气或者股票信息更新等实时应用程序。
 > 
@@ -8,7 +8,7 @@
 
 ### Web消息交互技术
 
-![WebInteraction.png](https://api.apifox.cn/api/v1/projects/2629312/resources/390750/image-preview)
+![image](https://github.com/user-attachments/assets/f71f7188-9cd4-4938-a755-35670c05fb93)
 
 ### Comet技术
 
@@ -24,8 +24,7 @@ Comet技术是解决上述问题的一种Web编程技术，用于实现Web应用
 
 ### SignalR 默认传输方式
 
-
-![transferType.png](https://api.apifox.cn/api/v1/projects/2629312/resources/390751/image-preview)
+![image](https://github.com/user-attachments/assets/32f4ff49-e3c3-49de-bfe8-379b14b25d41)
 
 ### SignalR 指定传输方式
 
@@ -60,12 +59,12 @@ $.connection.start({transport:['webSockets','foeverFrame',……]})
 1. 创建一个 .NET 6 Web 应用程序项目：使用你喜欢的 IDE（例如 Visual Studio 2022、Visual Studio Code 等）创建一个新的 .NET 6 Web 应用程序项目。
 2. 添加 SignalR 支持：确保你的项目引用了 Microsoft.AspNetCore.SignalR NuGet 包。你可以在项目文件（例如 .csproj 文件）或通过包管理器控制台运行以下命令来添加引用：
 
-```c#
+```csharp
 dotnet add package Microsoft.AspNetCore.SignalR
 ```
 3. 创建 SignalR Hub 类：创建一个继承自 Hub 类的 SignalR Hub 类。这个类将负责处理客户端和服务器之间的实时通信。
 
-```c#
+```csharp
 using Microsoft.AspNetCore.SignalR;
 
 public class ChatHub : Hub
@@ -78,12 +77,12 @@ public class ChatHub : Hub
 ```
 5. 配置 SignalR 终结点：在 Startup.cs 文件的 ConfigureServices 方法中，添加 SignalR 服务的配置。
 
-```c#
+```csharp
 services.AddSignalR();
 ```
 7. 配置 SignalR 终结点和路由：在 Startup.cs 文件的 Configure 方法中，使用 UseEndpoints 方法配置 SignalR 终结点和路由。
 
-```c#
+```csharp
 app.UseEndpoints(endpoints =>
 {
    endpoints.MapHub<ChatHub>("/chathub");
