@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d7ac6b13-f6c4-4619-9597-af10a70e3b0b)# SignalR 实时双向通信功能
+# SignalR 实时双向通信功能
 
 > SignalR是一个.Net开源库，用于构建需要实时进行用户交互和数据更新的Web应用，如在线聊天，游戏，天气或者股票信息更新等实时应用程序。
 > 
